@@ -2,7 +2,7 @@
 Filename: madlibs.py
 Author: <Melendez, Jacob>
 Created: <9/01/2026>
-Instructor: Holtslander
+Instructor: Burgess
 """
 
 q1 = input("Enter a noun: ")
