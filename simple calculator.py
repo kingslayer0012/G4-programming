@@ -1,3 +1,10 @@
+"""
+Filename: simple_calculator.py
+Author: <Lastname, Firstname>
+Created: <MM/DD/YYYY>
+Instructor: burgess
+"""
+
 print ("welcome to simple calculator")
 
 print ("\nthis is a simple calculator that will help you with 2 numbers on the 4 simple symbols")
