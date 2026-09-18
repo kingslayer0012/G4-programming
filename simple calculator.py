@@ -1,7 +1,7 @@
 """
 Filename: simple_calculator.py
-Author: <Lastname, Firstname>
-Created: <MM/DD/YYYY>
+Author: <Melendez, Jacob>
+Created: <09/18/2026>
 Instructor: burgess
 """
 
