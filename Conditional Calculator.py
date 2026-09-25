@@ -4,7 +4,7 @@ Author: <Melendez, Jacob>
 Created: <09/25/2026>
 Instructor: burgess
 """
-
+from time import sleep
 print ("welcome to conditional calculator")
 
 print ("\nthis is a conditional calculator that will help you with 2 numbers on the 4 simple symbols")
@@ -24,3 +24,5 @@ elif x == '/':
 
 print ("\nthank you for using conditional caculator")
 print ("have a blessed day")
+
+sleep(5)
