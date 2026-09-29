@@ -12,10 +12,14 @@ print ("\nthis is a simple calculator that will help you with 2 numbers on the 4
 n1 = int(input ("\nenter first number: "))
 
 n2 = int(input ("\nenter second number: "))
-print (f"\nsum {n1+n2}")
-print (f"\ndifference {n1-n2}")
-print (f"\nproduct {n1*n2}")
-print (f"\nquotient {n1/n2}")
+
+print (f"\n {n1}+{n2}={n1+n2}")
+
+print (f"\n {n1}-{n2}={n1-n2}")
+
+print (f"\n {n1}*{n2}={n1*n2}")
+
+print (f"\n {n1}/{n2}={n1/n2}")
 
 print ("\nthank you for using simple caculator")
 print ("have a blessed day")
