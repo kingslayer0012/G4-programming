@@ -1,36 +1,20 @@
-x = input("do you prefer working from home or the office?: ")
 
-if x == "home":
-    input("tell me why you would prefer home: ")
-else:
-    input("tell me why you would prefer office: ")
 
-print ("ok next question")
-r = input ("why did you choose to apply to our company?: ")
-print ("ok next question")
 
-y = input ("do you feel comfortable talking to your coworkers?: ")
+while True:
+    y = input("Enter 1, 2, or 3: ")
 
-if y == "yes":
-    print ("ok")
-else:
-    input ("tell me why?: ")
+    if y == '1':
+        print("You entered 1")
+        break
+    elif y == '2':
+        print("You entered 2")
+        break
+    elif y == '3':
+        print("You entered 3")
+        break
 
-print ("ok next question")
-t = input ("what distracts you the most?: ")
-print ("ok final question")
+    else:
+        print("wrong")
 
-z = input ("do you feel comfortable asking people for help?: ")
 
-if z == "yes":
-    print ("ok")
-else:
-    input ("tell me why?: ")
-
-print ("thanks for taking my interview")
-
-print("You entered: ",x)
-print("You entered: ",r)
-print("You entered: ",y)
-print("You entered: ",t)
-print("You entered: ",z)

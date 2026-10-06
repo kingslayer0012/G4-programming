@@ -72,7 +72,7 @@ else:
     print ("\nIncorrect! You have been penalized 1 point!")
     if s > 0:
         s -= 1
-q6 = input ("Sixth question, What is the term for combining multiple lists into one?: ")
+q6 = input ("\nSixth question, What is the term for combining multiple lists into one?: ")
 if q6 == "concatenation":
     print ("\nCorrect! You have been awarded 2 points!")
     if q >=0:
@@ -83,7 +83,7 @@ else:
     print ("\nIncorrect! You have been penalized 1 point!")
     if s > 0:
         s -= 1
-q7 = input ("Seventh question, WWhat keyword is used to combine an else and if statement for multiple conditional branches: ")
+q7 = input ("\nSeventh question, WWhat keyword is used to combine an else and if statement for multiple conditional branches: ")
 if q7 == "elif":
     print ("\nCorrect! You have been awarded 2 points!")
     if q >=0:
@@ -94,7 +94,7 @@ else:
     print ("\nIncorrect! You have been penalized 1 point!")
     if s > 0:
         s -= 1
-q8 = input ("Eight question, What method is used to add an item to the end of a list?: ")
+q8 = input ("\nEighth question, What method is used to add an item to the end of a list?: ")
 if q8 == "append":
     print ("\nCorrect! You have been awarded 2 points!")
     if q >=0:
@@ -105,7 +105,7 @@ else:
     print ("\nIncorrect! You have been penalized 1 point!")
     if s > 0:
         s -= 1
-q9 = input ("Ninth question, What symbol is used for exponents in Python?: ")
+q9 = input ("\nNinth question, What symbol is used for exponents in Python?: ")
 if q9 == "**":
     print ("\nCorrect! You have been awarded 2 points!")
     if q >=0:
@@ -116,7 +116,7 @@ else:
     print ("\nIncorrect! You have been penalized 1 point!")
     if s > 0:
         s -= 1
-q10 = input ("Final question, What function would you use to find how many items are in a list?: ")
+q10 = input ("\nFinal question, What function would you use to find how many items are in a list?: ")
 if q10 == "len()":
     print ("\nCorrect! You have been awarded 2 points!")
     if q >=0:
