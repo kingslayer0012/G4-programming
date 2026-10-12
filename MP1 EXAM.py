@@ -14,3 +14,5 @@ elif c > 32:
     print (f"\nhere is your Celsius {c} - Heat Warning!!")
 else:
     print (f"\nhere is your Celsius {c} - Normal Temperature")
+print ("\nThank you for using Fahrenheit to Celsius converter!!")
+print ("\nhave a blessed day!!")
