@@ -1,13 +1,15 @@
-s = 0
+while True:
+    y = input("Enter 1, 2, or 3: ")
 
+    if y == '1':
+        print("You entered 1")
+        break
+    elif y == '2':
+        print("You entered 2")
+        break
+    elif y == '3':
+        print("You entered 3")
+        break
 
-q1 = input ("\nFirst question, What is the default data type for numbers in Python?: ")
-if q1 == "int":
-    print ("\nCorrect! You have been awarded 2 points!")
-    if s >=0:
-        s +=2
-else:
-    print ("\nIncorrect! You have been penalized 1 point!")
-    if s >0:
-        s -=1
-print (f"your score is {s}/10")
+    else:
+        print("wrong")
