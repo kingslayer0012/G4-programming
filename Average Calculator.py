@@ -1,6 +1,6 @@
 """
 Filename: <Average_Calculator>
-Author: <Melendez, Jacob>
+Author: <Melendez,Jacob>
 Created: <10/22/2026>
 Instructor: Burgess
 """
