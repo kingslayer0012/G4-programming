@@ -6,7 +6,6 @@ Instructor: Burgess
 """
 x = 0
 n = 0
-p = 0
 print ("===============================")
 print ("Welcome to Average Calculator!!")
 print ("===============================")
