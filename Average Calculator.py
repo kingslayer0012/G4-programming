@@ -6,6 +6,7 @@ Instructor: Burgess
 """
 x = 0
 n = 0
+p = 0
 print ("===============================")
 print ("Welcome to Average Calculator!!")
 print ("===============================")
@@ -21,7 +22,6 @@ while True:
     a = (n / x)
     print (f"\nhere is the your average value numbers inputted {a}")
     t = input ("\nwould you like to enter another number? (y/n): ")
-    s = (a / x)
     if t == "y":
         continue
     else:
