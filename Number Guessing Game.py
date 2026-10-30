@@ -9,6 +9,7 @@ print ("=================================")
 print ("Welcome to Number Guessing Game!!")
 print ("=================================")
 
+print ("\nthis is a Number Guessing Game where you try to guess the number and will tell you if the number is to high or low!")
 import random
 x = random.randint(1,100)
 #print (x)
