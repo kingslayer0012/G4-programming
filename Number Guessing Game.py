@@ -26,6 +26,6 @@ while True:
         break
 
 
-print (f"\nthis is how many attempts it took to guess the number {c}")
+print (f"\nthis is how many attempts it took you to guess the number {c}")
 print ("\nThank you for playing Number Guessing Game!!")
 print ("\nhave a blessed day!!")
