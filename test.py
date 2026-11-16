@@ -1,16 +1,23 @@
-#1
-while True:
-    y = input("Enter 1, 2, or 3: ")
+def factorial():
+    x = int(input ("input a number: "))
+    t = 1
+    print(f"{x}! = ",end="")
+    for i in range(x, 0, -1):
+        if i > 1:
+            print(f"{i} * ", end="")
+        else:
+            print(f"{i} ", end="")
+        t *= i
+    print(f"= {t}")
 
-    if y == '1':
-        print("You entered 1")
-        break
-    elif y == '2':
-        print("You entered 2")
-        break
-    elif y == '3':
-        print("You entered 3")
-        break
 
-    else:
-        print("wrong")
+def main():
+    print("This program computes factorials and displays their intermediate calculations.")
+    running = "y"
+    while running == "y":
+        factorial()
+        running = input("Do another calculation? (y/n)\n").lower()
+    print("Thank you for using this factorial calculator!")
+
+if __name__ == "__main__":
+    main()
