@@ -5,7 +5,7 @@ Created: <11/12/2026>
 Instructor: Burgess
 """
 def factorial():
-    x = int(input ("input a number that's above 1: "))
+    x = int(input ("input a number that's ABOVE 1!!: "))
     t = 1
     print(f"{x}! = ",end="")
     for i in range(x, 0, -1):
