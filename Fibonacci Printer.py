@@ -14,7 +14,6 @@ x,y=y,x+y
 def n_fibonacci():
     n = int(input ("input a non-negative whole number: "))
     for i in range (n):
-        if 
         print (i)
 
 
