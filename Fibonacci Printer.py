@@ -4,11 +4,19 @@ Author: <Melendez,Jacob>
 Created: <11/18/2026>
 Instructor: Burgess
 """
+x=0
+y=1
+t=x+y
+x=y
+y=t
+x,y=y,x+y
+
 def n_fibonacci():
     n = int(input ("input a non-negative whole number: "))
-    for i in n:
-        i+(i-1)
-        print (f"{i}", end=" ")
+    for i in range (n):
+        if 
+        print (i)
+
 
 
 

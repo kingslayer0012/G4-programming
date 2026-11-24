@@ -5,16 +5,16 @@ Created: <11/12/2026>
 Instructor: Burgess
 """
 def factorial():
-    x = int(input ("input a number: "))
+    x = int(input ("input a number that's above 1: "))
     t = 1
     print(f"{x}! = ",end="")
     for i in range(x, 0, -1):
         if i > 1:
             print(f"{i} * ", end="")
         else:
-            print(f"{i} ", end="")
+            print(f"{i} = ", end="")
         t *= i
-    print(f"= {t}")
+    print(f"{t}")
 
 
 def main():
